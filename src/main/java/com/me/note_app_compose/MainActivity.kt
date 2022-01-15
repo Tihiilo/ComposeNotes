@@ -27,7 +27,7 @@ import androidx.navigation.navArgument
 import com.me.note_app_compose.presintation.fetaures_note_todo.AddEditItemTodoScreen
 import com.me.note_app_compose.presintation.fetaures_note_todo.AddEditNoteScreen
 import com.me.note_app_compose.presintation.note.NotesScreen
-import com.me.note_app_compose.ui.theme.Note_app_compsoeTheme
+import com.me.note_app_compose.ui.theme.Note_app_composeTheme
 import com.me.note_app_compose.util.Routes
 import com.me.note_app_compose.util.Screen
 import com.me.note_app_compose.util.UiEvent
@@ -46,7 +46,7 @@ class MainActivity : ComponentActivity() {
         }
 
         setContent {
-            Note_app_compsoeTheme {
+            Note_app_composeTheme() {
                 Surface(
                     color = MaterialTheme.colors.background
                 ) {
